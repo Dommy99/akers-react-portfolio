@@ -1,0 +1,35 @@
+.projectslist {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.projectslist-texts {
+  width: 65%;
+}
+
+.projectslist-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+
+.projectslist-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+  .projectslist {
+    padding: 10px;
+  }
+
+  .projectslist-texts {
+    width: 100%;
+  }
+
+}
