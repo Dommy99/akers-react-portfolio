@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.b9dc0976.css",
+    "main.js": "/photo-port/static/js/main.22fe5cbc.js",
+    "static/media/portfolio-philly.jpg": "/photo-port/static/media/portfolio-philly.0f35f1230c479d36d2bf.jpg",
+    "static/media/8.jpg": "/photo-port/static/media/8.68c42c3149aa1fa84005.jpg",
+    "static/media/dom-cutout.jpg": "/photo-port/static/media/dom-cutout.1fc9ccaff3d9f1c09760.jpg",
+    "static/media/2.jpg": "/photo-port/static/media/2.5cfa88effa268c3db16d.jpg",
+    "static/media/7.jpg": "/photo-port/static/media/7.885f3484dbbb9d403b9e.jpg",
+    "static/media/4.jpg": "/photo-port/static/media/4.6e497f368cf0a423cb07.jpg",
+    "static/media/6.jpg": "/photo-port/static/media/6.6059213b5b6386ac7557.jpg",
+    "static/media/1.jpg": "/photo-port/static/media/1.b4dbdef2833e9e08defe.jpg",
+    "static/media/0.jpg": "/photo-port/static/media/0.62bd0556c7cbd77dec59.jpg",
+    "static/media/5.jpg": "/photo-port/static/media/5.dd783311b774d43bb067.jpg",
+    "static/media/3.jpg": "/photo-port/static/media/3.aa7a610dd738ad99b52c.jpg",
+    "static/media/email.png": "/photo-port/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/phone.png": "/photo-port/static/media/phone.d90a6d23cf5129d853bb.png",
+    "index.html": "/photo-port/index.html",
+    "main.b9dc0976.css.map": "/photo-port/static/css/main.b9dc0976.css.map",
+    "main.22fe5cbc.js.map": "/photo-port/static/js/main.22fe5cbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9dc0976.css",
+    "static/js/main.22fe5cbc.js"
+  ]
+}
