@@ -30,8 +30,6 @@ const App = () => {
               />
       </Routes>
       
-      {/* <ProductList /> */}
-      
       </Router>
       </div>
   ) 
