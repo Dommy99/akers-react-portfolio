@@ -16,6 +16,10 @@ const Header = () => {
   <Nav.Item>
   <Nav.Link href="/home"> <Link to="/Contact">Contact</Link> </Nav.Link>
   </Nav.Item>
+
+  <Nav.Item>
+  <Nav.Link href="/home"> <Link to="/Resume">Resume</Link> </Nav.Link>
+  </Nav.Item>
 </Nav>
   );
 };

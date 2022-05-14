@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/akers-react-portfolio/static/css/main.b9dc0976.css",
-    "main.js": "/akers-react-portfolio/static/js/main.22fe5cbc.js",
+    "main.js": "/akers-react-portfolio/static/js/main.744ce0bb.js",
     "static/media/portfolio-philly.jpg": "/akers-react-portfolio/static/media/portfolio-philly.0f35f1230c479d36d2bf.jpg",
     "static/media/8.jpg": "/akers-react-portfolio/static/media/8.68c42c3149aa1fa84005.jpg",
     "static/media/dom-cutout.jpg": "/akers-react-portfolio/static/media/dom-cutout.1fc9ccaff3d9f1c09760.jpg",
@@ -17,10 +17,10 @@
     "static/media/phone.png": "/akers-react-portfolio/static/media/phone.d90a6d23cf5129d853bb.png",
     "index.html": "/akers-react-portfolio/index.html",
     "main.b9dc0976.css.map": "/akers-react-portfolio/static/css/main.b9dc0976.css.map",
-    "main.22fe5cbc.js.map": "/akers-react-portfolio/static/js/main.22fe5cbc.js.map"
+    "main.744ce0bb.js.map": "/akers-react-portfolio/static/js/main.744ce0bb.js.map"
   },
   "entrypoints": [
     "static/css/main.b9dc0976.css",
-    "static/js/main.22fe5cbc.js"
+    "static/js/main.744ce0bb.js"
   ]
 }
