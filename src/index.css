@@ -5,4 +5,9 @@
     --color4: rgb(250, 237, 205);
     --color5: rgb(212, 163, 115);
   }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
   

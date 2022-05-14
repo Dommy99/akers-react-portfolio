@@ -73,13 +73,17 @@
         text-align: center;
         margin-top: 50px;
       }
+
+      .about-img {
+        width: 100%;
+      }
   
       .about-left {
         width: 100%;
       }
   
       .about-card {
-        height: 30vh;
+        height: 50vh;
       }
   
       .about-card.bg, .about-philly {
