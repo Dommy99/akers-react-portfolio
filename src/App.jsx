@@ -4,6 +4,7 @@ import ProductList from "./components/Projectslist/projectslist";
 import Contact from "./components/Contact/contact";
 import Header from "./components/Header/header"
 import Resume from "./components/Resume/resume"
+import Footer from "./components/Footer/footer"
 import "./index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -36,6 +37,7 @@ const App = () => {
       </Routes>
       
       </Router>
+      <Footer/>
       </div>
   ) 
 };

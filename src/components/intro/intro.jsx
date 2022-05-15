@@ -16,9 +16,9 @@ const Intro = () => {
               </div>
             </div>
             <p className="desc">
-              I design and develop services for customers of all sizes,
+              I design and develop web applications for customers of all sizes,
               specializing in creating stylish, modern websites, web services and
-              online stores.
+              online stores. 
             </p>
           </div>
         </div>

@@ -1,26 +1,22 @@
 import Nav from "react-bootstrap/Nav";
+import Navbar from 'react-bootstrap/Navbar'
+import Container from "react-bootstrap/Nav"
 import "./header.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Nav variant="pills" defaultActiveKey="/home">
-  <Nav.Item>
-    <Nav.Link href="/home"> <Link to="/Portfolio">Portfolio</Link> </Nav.Link>
-  </Nav.Item>
 
-  <Nav.Item>
-  <Nav.Link href="/home"> <Link to="/About">About</Link> </Nav.Link>
-  </Nav.Item>
-
-  <Nav.Item>
-  <Nav.Link href="/home"> <Link to="/Contact">Contact</Link> </Nav.Link>
-  </Nav.Item>
-
-  <Nav.Item>
-  <Nav.Link href="/home"> <Link to="/Resume">Resume</Link> </Nav.Link>
-  </Nav.Item>
-</Nav>
+<Navbar bg="dark" variant="dark" fixed="top">
+    <Container>
+    <Navbar.Brand>Dominique Akers</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link href="#Portfolio"><Link to="/Portfolio" className="linkText">Portfolio</Link></Nav.Link>
+      <Nav.Link href="#About"><Link to="/About" className="linkText">About</Link></Nav.Link>
+      <Nav.Link href="#Resume"><Link to="/Resume" className="linkText">Resume</Link></Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
   );
 };
 

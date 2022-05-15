@@ -1,7 +1,2 @@
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0% 0% 0% 0%;
-    margin-bottom: 0;
-    list-style: none;
-}
+.linkText{ color: var(--color5) }
+
