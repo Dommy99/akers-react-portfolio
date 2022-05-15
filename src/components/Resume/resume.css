@@ -31,3 +31,18 @@ p{
   width: 90%;
   padding: 10px;
 }
+
+.me-2, .mb-2{
+  padding: auto;
+}
+
+#btn{
+  padding: 2% 7% 0% 0% ;
+  
+}
+
+#btn-container{
+  z-index: 1;
+  margin: -6% 0% 0% 0% ;
+  
+}

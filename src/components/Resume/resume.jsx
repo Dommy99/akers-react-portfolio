@@ -1,9 +1,34 @@
 import "./resume.css";
+import React, {useState} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Modal, Button} from 'react-bootstrap';
 
 const Resume = () => {
+  const values = [true];
+  const [fullscreen, setFullscreen] = useState(true);
+  const [show, setShow] = useState(false);
+
+  function handleShow(breakpoint) {
+    setFullscreen(breakpoint);
+    setShow(true);
+  }
+
   return (
-    <div>
-      <h1>Resume </h1>
+    <div id="btn-container">
+      
+      <div className="container" >
+      <>
+      {values.map((v, idx) => (
+        <Button id='btn' variant="outline-dark" size="lg" key={idx} className="me-2 mb-2" onClick={() => handleShow(v)}>
+          <h1>Resume</h1>
+          {typeof v === 'string' && `below ${v.split('-')[0]}`}
+        </Button>
+      ))}
+      <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+        <Modal.Header closeButton>
+          <Modal.Title><h1>Resume </h1></Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
       <div className="resume">
         <h1>Dominique D. Akers </h1>
         <h4>Fort Hood, TX </h4>
@@ -90,6 +115,9 @@ const Resume = () => {
         </p>
         <h5>Education </h5>
         <p>University of Texas - Austin Anticipated 06/2022 Coding Boot Camp</p>
+      </div></Modal.Body>
+      </Modal>
+    </>
       </div>
     </div>
   );

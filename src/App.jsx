@@ -32,14 +32,16 @@ const App = () => {
               />
       <Route 
                 path="/Resume"
-                element={<Resume />}
+                element={<Resume/>}
               />
       </Routes>
       
       </Router>
       <Footer/>
+      
       </div>
   ) 
 };
+
 
 export default App;

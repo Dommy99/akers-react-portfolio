@@ -12,46 +12,46 @@ export const projects = [
   {
     id: 1,
     img: image0,
-    link: "https://github.com/Dommy99",
+    link: "https://dommy99.github.io/Day-Scheduler-Pro/",
   },
   {
     id: 2,
     img: image1,
-    link: "https://github.com/Dommy99",
+    link: "https://dommy99.github.io/Akers-Weather-Forecast/",
   },
   {
     id: 3,
     img: image2,
-    link: "https://github.com/Dommy99",
+    link: "https://github.com/Dommy99/wing-map",
   },
   {
     id: 4,
     img: image3,
-    link: "https://github.com/Dommy99",
+    link: "https://github.com/Dommy99/README-Gen",
   },
   {
     id: 5,
     img: image4,
-    link: "https://github.com/Dommy99",
+    link: "https://github.com/Dommy99/Team-Profile-Gen",
   },
   {
     id: 6,
     img: image5,
-    link: "https://github.com/Dommy99",
+    link: "https://noteproakers.herokuapp.com/",
   },
   {
     id: 7,
     img: image6,
-    link: "https://github.com/Dommy99",
+    link: "https://github.com/Dommy99/Employee-Tracker-akers",
   },
   {
     id: 8,
     img: image7,
-    link: "https://github.com/Dommy99",
+    link: "https://github.com/Dommy99/E-commerce-orm",
   },
   {
     id: 9,
     img: image8,
-    link: "https://github.com/Dommy99",
+    link: "https://github.com/laszlo-ratesic/crop-duster",
   },
 ];

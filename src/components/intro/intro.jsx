@@ -18,8 +18,8 @@ const Intro = () => {
             <p className="desc">
               I design and develop web applications for customers of all sizes,
               specializing in creating stylish, modern websites, web services and
-              online stores. 
-            </p>
+              online stores. <br/>scroll below for more content.<b>↓</b>
+            </p> 
           </div>
         </div>
         <div className="right-container">
