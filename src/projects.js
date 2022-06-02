@@ -7,6 +7,7 @@ import image5 from "./img/5.jpg"
 import image6 from "./img/6.jpg"
 import image7 from "./img/7.jpg"
 import image8 from "./img/8.jpg"
+import image9 from "./img/9.jpg"
 
 export const projects = [
   {
@@ -53,5 +54,10 @@ export const projects = [
     id: 9,
     img: image8,
     link: "https://github.com/laszlo-ratesic/crop-duster",
+  },
+  {
+    id: 10,
+    img: image9,
+    link: "https://connected-jobsearch-engine.herokuapp.com/",
   },
 ];
