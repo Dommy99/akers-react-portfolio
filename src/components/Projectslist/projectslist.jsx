@@ -3,6 +3,7 @@ import Portfolio from "../Portfolio/portfolio";
 import { projects } from "../../projects";
 
 const Projectslist = () => {
+  
   return (
     <div className="projectslist">
       <div className="projectslist-texts">
@@ -10,7 +11,7 @@ const Projectslist = () => {
       </div>
       <div className="projectslist-list">
         {projects.map((item) => (
-          <Portfolio key={item.id} img={item.img} link={item.link} />
+          <Portfolio key={item.id} img={item.img} link={item.link} githublink={item.githublink} />
         ))}
       </div>
     </div>
