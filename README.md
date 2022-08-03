@@ -10,7 +10,7 @@
 
 ## Description
 
-With the help of react router, and react bootstrap this portfolio helps to demonstrate my understanding of React and conditional rendering. Use the navbar to flow through the components and their pages.
+With the help of react router, and react bootstrap this portfolio helps to demonstrate my understanding of React and conditional rendering. Use the navbar to flow through the components and there pages.
 
 ## Deployment
 
