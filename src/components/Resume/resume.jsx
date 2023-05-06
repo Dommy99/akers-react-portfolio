@@ -31,12 +31,9 @@ const Resume = () => {
         <Modal.Body>
       <div className="resume">
         <h1>Dominique D. Akers </h1>
-        <h4>Fort Hood, TX </h4>
+        <h4>Copperas Cove, TX </h4>
         <p>
-          An energetic, results-driven individual with proven skills in web
-          development using the latest technologies. Thorough understanding of
-          continuous development models to contribute to the success of web
-          development projects.
+        An energetic, results-driven individual with proven skills in software development/cyber security using the latest technologies.  A thorough understanding of continuous development models contributes to the success of web development projects, while the knowledge in cyber security helps to protect both user and company data. 
         </p>
         <br />
         <br />
@@ -65,6 +62,7 @@ const Resume = () => {
         <div className="right">
           <h6>
             Technologies:
+            <li>Java</li>
             <li>JavaScript/ES6 </li>
             <li>HTML </li>
             <li>CSS </li>
@@ -85,36 +83,15 @@ const Resume = () => {
         <h4>Employment History </h4>
         <h5>United States Army<br /> Fort Hood, TX 01/2019 - 03/2022 <br />Infantryman</h5>
         <p>
-          Served 3 years as a light infantryman applying military skills and
-          knowledge in home-station environments as well as overseas assignments
-          and duties. Utilized individual infantryman skills to ensure mission
-          readiness. Constructed and maintained various weapons. Maintained and
-          serviced assigned vehicles with 100% accountability. Inspected and
-          maintained over 1 million dollars in communication equipment assigned
-          to the company. Cleaned and ensured storage of multi-million-dollar
-          vehicles and assigned equipment. Upheld safety protocols in all
-          performed tasks with no injuries or negative results. Lead a fire team
-          through multiple training cycles. Tasked with training new soldiers in
-          firearm safety, protocols, and proficiency.
-        </p>
-        <h5>
-          Free Library of Philadelphia <br />Philadelphia, PA 1/2017 - 12/2017 <br />Kitchen
-          Manager
-        </h5>
-        <p>
-          Managed kitchen staff to ensure daily duties performed as well as any
-          special work assigned. Maintained standards set for all prepared food,
-          ensuring served at the right temperature. Handled complaints made by
-          guests about food or service, using professional manner and solving
-          problem expeditiously. Supervised kitchen inventory to make certain
-          all needed products and produce stocked or ordered fresh daily.
-          Guaranteed the kitchen and all related areas kept clean and sanitized
-          at all times. Planned, delegated, organized and coordinated each
-          kitchen staff member’s activities for the day. Taught and assisted
-          with cooking classes.
+        Served 3 years as a light infantryman applying military skills and knowledge in US and overseas assignments and duties. 
+<br/>•	Inspected and maintained over $1M in communication equipment and vehicles assigned to the company. 
+<br/>•	Lead a fire team through 5 training cycles. 
+
         </p>
         <h5>Education </h5>
-        <p>University of Texas - Austin Anticipated 06/2022 Coding Boot Camp</p>
+        <p>University of Texas - 	Full stack web development course (mern), React and computer science fundamentals.</p>
+        <p>Interapt - 	Full stack course learning Java and SQL.</p>
+        <p>Certifications - CompTIA Security +, Certified Network Defender (CND), Certified Ethical Hacker (CEH)</p>
       </div></Modal.Body>
       </Modal>
     </>
