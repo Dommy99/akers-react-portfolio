@@ -3,7 +3,7 @@ import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-
+import { useEffect } from 'react';
 
 // https://www.emailjs.com/docs/examples/reactjs/
 const Contact = () => {
@@ -30,9 +30,19 @@ const Contact = () => {
         }
       );
   };
+  const contactRef = useRef(null);
+
+
+  useEffect(() => {
+    const contactPos = contactRef.current.offsetTop;
+    const windowHeight = window.innerHeight;
+    const scrollPos = contactPos - windowHeight + contactRef.current.offsetHeight;
+    window.scrollTo({ top: scrollPos, behavior: 'smooth' });
+}, []);
+
 
   return (
-    <div className="contact">
+    <div className="contact" ref={contactRef}>
       <div className="contact-background"></div>
       <div className="contact-wrapper">
         <div className="contact-left">
@@ -49,9 +59,6 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-right">
-          <p className="contact-desc">
-            available for Hire.
-          </p>
           {/* https://www.emailjs.com/docs/examples/reactjs/ */}
           <form ref={form} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" />

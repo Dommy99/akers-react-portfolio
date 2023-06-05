@@ -1,29 +1,15 @@
 .portfolio {
-  width: 30%;
-  height: 40vh;
+  width: 15%;
+  height: 20vh;
   margin: 20px 10px;
   border: 2px solid var(--color5);
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
 }
 
-.portfolio-header {
-  height: 20px;
-  background-color: var(--color5);
-  display: flex;
-  align-items: center;
-  position: sticky;
-  z-index: 2;
+#projectName {
+  text-decoration: none;
 }
-
-.portfolio-img {
-  width: 100%;
-  transition: all 10s ease;
-}
-
-/* .portfolio:hover .portfolio-img {
-  transform: translateY(-100%);
-} */
 
 @media screen and (max-width: 480px) {
   .portfolio {

@@ -46,6 +46,10 @@ b{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
   }
+
+  .desc {
+    font-size: 25px;
+  }
   
   @keyframes move {
     25% {
@@ -81,7 +85,7 @@ b{
   .img {
     width: 70%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
     padding: 15% 0% 0% 1%;
     border-radius: 50%;
